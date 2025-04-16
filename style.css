@@ -1,0 +1,33 @@
+html,body{
+    height:100%;
+    margin:0;
+}
+.section-1{
+    height: 100vh; 
+    background-image: url("./assets/1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2{
+    height: 100vh; 
+    background-image: url("./assets/2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(140, 171, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    text-align: center;
+    max-width: 90%;
+    animation: floatIn 2s ease-in-out both;
+}
+
